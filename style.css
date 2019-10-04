@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+body{
+    background-color: #DDDDDD;
+}
+
+/*keseluruhan*/
+.Container{
+width: 950px;
+margin: 0 auto;
+overflow: hidden;
+/*height: auto;*/
+font-family: 'Inconsolata', monospace;
+}
+    .header {
+        background-color: #212121;
+        height: 90px;
+        padding: 5px;
+        margin: 20px 0;
+        overflow: hidden;
+        width: 100%;
+        color: white;
+        background-repeat: no-repeat;
+        }
+        .header img {
+            float: left;
+            width: 90px;
+            height: 90px;
+            margin-top: 0px;
+            margin-left: 10px;
+        }
+        .header form{
+            margin-top: 10px;
+            margin-left: 15px;
+        }
+            .header form input {
+                border: none;
+                margin-right: 83px;
+                height: 20px;
+                width: 100px;
+                padding-right: 30px;
+                margin-bottom: 50px;
+            }
+                .search {
+                  width: 30%;
+                  position: relative;
+                  display: flex;
+                }
+
+                .searchTerm {
+                  width: 100%;
+                  border: 3px solid #00B4CC;
+                  border-right: none;
+                  padding: 5px;
+                  height: 20px;
+                  border-radius: 5px 0 0 5px;
+                  outline: none;
+                  color: #9DBFAF;
+                }
+
+                .searchTerm:focus{
+                 color: #00B4CC;
+                }
+
+                .searchButton {
+                  width: 40px;
+                  height: 36px;
+                  border: 1px solid #00B4CC;
+                  background: #00B4CC;
+                  text-align: center;
+                  color: #fff;
+                  border-radius: 0 5px 5px 0;
+                  cursor: pointer;
+                  font-size: 20px;
+                }
+        .menu {
+            background-color: #393b39;
+            height: 50px;
+            text-align: left;
+            color: white;
+            padding-top: 0;
+            }
+            .menu a {
+                float: center;
+                display: block;
+                color: white;
+                text-align: left;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+            /* Change color on hover */
+            .menu a:hover {
+                background-color: #ddd;
+                color: white;
+            }
+            .menu ul {
+                padding: 0;
+            }
+
+            .menu ul li {
+                display: inline-block;
+            }
+
+            .menu ul li a {
+                padding: 10px 20px;
+                text-decoration: none;
+             }
+    /*isi*/
+    .Content {
+        background-color: white;
+        /*height: 550px*/;
+        width: 195px;
+        /*width: 430px;*/
+        /*text-align: center;*/
+        /*overflow: hidden;*/
+        color: black;
+        /*padding-top: 20px;*/
+        /*padding: 10px;*/
+        float: right;
+        height: 540px;
+        margin-bottom: 20px;
+        /*margin-left: 180px;*/
+        }
+        .Content h4 {
+            padding-top: 20px;
+        }
+        .Content ul li a {
+            font-size: 20px;
+            font-weight: bold;
+
+
+        }
+        .Artikel {
+            background-color: #393b39;
+            /*width: 500px;*/
+            min-height: 220px;
+            text-align: center;
+            overflow: hidden;
+            padding: 10px;
+            /*float: left;*/
+            color: white;
+            margin: 20px;
+        }
+            .Artikel img {
+                width: 200px;
+                height: 200px;
+                color: black;
+                float: left;
+            }
+            .Artikel h2 p {
+                float: left;
+            }
+    .Sidebar {
+        background-color: white;
+        width: 560px;
+        height: 540px;
+        text-align: center;
+        /*overflow: hidden;*/
+        float: right;
+        color: white;
+        } 
+        .Sidebar a:hover{
+            color: grey;
+
+        }
+    .leftbar {
+        background-color: white;
+        width: 195px;
+        height: 540px;
+        text-align: center;
+        overflow: hidden;
+        float: right;
+        color: black;
+
+        }
+        .left1{
+            padding-top: 20px;
+            width: 100%;
+            height: 90px;
+        }
+        .left1 p{
+            font-size: 12px;
+
+        }
+
+        .leftbar .left1 img{
+            float: left;
+            overflow: hidden;
+        }
+
+
+    .footer {
+        clear: both;
+        background-color: #212121;
+        width: 950px;
+        height: 100px;
+        text-align: center;
+        color: gray;
+        font-family: 'Inconsolata', monospace;
+       }
+            .footer i p {
+                font-family: 'Inconsolata', monospace;
+            }
